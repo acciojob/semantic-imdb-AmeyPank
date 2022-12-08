@@ -1,2 +1,65 @@
 
 /* Your CSS Code here. */
+.moviename{
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+.moviename p{
+    margin: 80px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.navbar{
+    margin-top: 60px;
+    font-family: sans-serif;
+}
+.actor{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(5, 11, 9);
+    
+}
+.navbar button{
+    margin-left: 60px ;
+    font-size: 40px;
+}
+.navbar section li{
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+}
+.navbar nav div{
+    text-align: center;
+}
+.quotes{
+    font-family: monospace;
+    display: flex;
+}
+.navbar aside{
+    font-size:30px ;
+    color: rgb(5, 11, 9);
+    margin: 60px;
+    text-align: right;
+}
+
+.footer{
+    margin: 40px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer li{
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 300;
+    text-align: center;
+}
