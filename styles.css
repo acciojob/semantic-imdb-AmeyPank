@@ -20,7 +20,8 @@
 }
 .actor{
     display: flex;
-    margin-top: 20px;
+    margin: 45px;
+    margin-top: 30px;
     font-size: 20px;
     color: rgb(5, 11, 9);
     
@@ -44,12 +45,12 @@
 .navbar aside{
     font-size:30px ;
     color: rgb(5, 11, 9);
-    margin: 60px;
+    margin: 80px;
     text-align: right;
 }
 
 .footer{
-    margin: 40px;
+    margin: 60px;
     font-family: monospace;
     font-weight: 500;
     font-size: 30px;
