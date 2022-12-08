@@ -1,7 +1,7 @@
 
 /* Your CSS Code here. */
 .main{
-    background-color: #7d306c;
+    background-color: #7498c7;
 }
 .moviename{
     margin-top: 20px;
@@ -9,9 +9,14 @@
     font-size: 50px;
     text-align: center;
 }
+.moviename header{
+    color: red;
+    font-weight: 1000;
+    font-family:'Times New Roman', Times, serif;
+}
 
 .moviename p{
-
+    color: aliceblue;
     margin: 80px;
     font-family: monospace;
     font-size: 20px;
@@ -20,7 +25,7 @@
 }
 
 .navbar{
-    background-color: rgb(76, 110, 143);
+    background-color: #7498c7;
     margin-top: 60px;
     font-family: sans-serif;
 }
@@ -29,7 +34,7 @@
     margin: 45px;
     margin-top: 30px;
     font-size: 20px;
-    color: rgb(5, 11, 9);
+    color: rgb(208, 237, 237);
     
 }
 .navbar button{
@@ -40,23 +45,27 @@
     margin-left: 45% ;
     font-size: 40px;
     border-radius: 10px;
-    border-color: rebeccapurple;
-}
-.navbar section li{
-    font-size: 20px;
-    margin: 30px;
-    text-align: justify;
+    border-color: rgb(103, 24, 183);
 }
 .navbar nav div{
     text-align: center;
 }
 .quotes{
-    font-family: monospace;
+    color: aliceblue;
     display: flex;
+}
+.quotes li{
+    font-size: 25px;
+    margin-left: 8%;
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: justify;
+    font-family: monospace;
+
 }
 .navbar aside{
     font-size:30px ;
-    color: rgb(5, 11, 9);
+    color: rgb(129, 210, 183);
     text-align:center;
 }
 
@@ -69,6 +78,7 @@
 }
 
 .footer li{
+    color: rgb(197, 209, 218);
     margin: 10px;
     font-size: 20px;
     font-family: monospace;
@@ -81,8 +91,8 @@
 }
 
 .copyright {
-    background-color: #01143e;
-    border-top: 1px solid #423940;
+    background-color: #4e7ee5;
+    border-top: 1px solid #88a0ef;
     padding: 15px;
 }
 
