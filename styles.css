@@ -1,5 +1,8 @@
 
 /* Your CSS Code here. */
+.main{
+    background-color: #7d306c;
+}
 .moviename{
     margin-top: 20px;
     font-family: monospace;
@@ -8,13 +11,16 @@
 }
 
 .moviename p{
+
     margin: 80px;
     font-family: monospace;
     font-size: 20px;
-    text-align: justify;
+
+    text-align:initial;
 }
 
 .navbar{
+    background-color: rgb(76, 110, 143);
     margin-top: 60px;
     font-family: sans-serif;
 }
@@ -27,8 +33,14 @@
     
 }
 .navbar button{
-    margin-left: 60px ;
+    display: flex;
+    color: rgb(19, 84, 84);
+    padding: 2%;
+    margin: 2%;
+    margin-left: 45% ;
     font-size: 40px;
+    border-radius: 10px;
+    border-color: rebeccapurple;
 }
 .navbar section li{
     font-size: 20px;
@@ -45,8 +57,7 @@
 .navbar aside{
     font-size:30px ;
     color: rgb(5, 11, 9);
-    margin: 80px;
-    text-align: right;
+    text-align:center;
 }
 
 .footer{
@@ -63,4 +74,30 @@
     font-family: monospace;
     font-weight: 300;
     text-align: center;
+}
+.navbar button:hover{
+    background-color: greenyellow;
+    color: aliceblue;
+}
+
+.copyright {
+    background-color: #01143e;
+    border-top: 1px solid #423940;
+    padding: 15px;
+}
+
+.copyright p {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(236, 241, 250);
+}
+
+.copyright a {
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(236, 241, 250);
 }
